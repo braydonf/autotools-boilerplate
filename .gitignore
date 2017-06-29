@@ -1,0 +1,14 @@
+.deps/
+.libs/
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+build-aux/
+config.log
+config.status
+configure
+hello.lo
+hello.o
+libhello.la
+libtool

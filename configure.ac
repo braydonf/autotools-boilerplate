@@ -1,0 +1,14 @@
+AC_INIT([hello],[1.0.0])
+AC_CONFIG_AUX_DIR([build-aux])
+AC_CONFIG_MACRO_DIR([build-aux/m4])
+AM_INIT_AUTOMAKE([foreign])
+
+LT_INIT([win32-dll])
+
+AC_PROG_CC
+AM_PROG_CC_STDC
+AC_C_CONST
+AM_PROG_LIBTOOL
+
+AC_OUTPUT(Makefile)
+
